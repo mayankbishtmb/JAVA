@@ -1,0 +1,22 @@
+                                  clone the scanner after use(good practice)
+
+Scanner sc = new Scanner(System.in);
+
+// take input
+
+sc.close();
+
+    Why use sc.close()?
+
+.Releases the Scanner resource.
+.Good programming practice.
+.Usually written at the end of the program.
+
+     Is it compulsory?
+
+❌ No, for small Java/DSA programs.
+✅ Recommended in real-world applications.
+
+Important:
+
+After sc.close(), the Scanner cannot be used again.
